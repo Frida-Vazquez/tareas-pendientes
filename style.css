@@ -1,0 +1,104 @@
+* /*selector universal*/{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #1A5319;
+    background-color: #B0EBB4;
+    background-size: cover;
+}
+
+.contenedor {
+    width: 80%; /* Ancho del contenedor */
+    max-width: 600px; /* Ancho máximo para pantallas grandes */
+    margin: 40px auto; /* Centra el contenedor horizontalmente y agrega margen superior */
+    padding: 20px; /* Espaciado interno del contenedor */
+    background-color: rgba(255, 255, 255, 0.2); /* Fondo blanco con 20% de opacidad */
+    border-radius: 15px; /* Bordes redondeados del contenedor */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra del contenedor */
+    backdrop-filter: blur(10px); /* Efecto de desenfoque */
+}
+
+.encabezado {
+    text-align: center;
+    margin-bottom: 20px; /* Espacio debajo del encabezado */
+}
+
+.agregar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; /* Espacio debajo del área de agregar tareas */
+    background-color: #80AF81;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.agregar input {
+    width: 50px;
+    height: 60px;
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: white; /* Fondo blanco */
+}
+
+.agregar input::placeholder{
+    font-size: 1.1rem;
+    color: #80AF81;
+}
+
+.agregar i {
+    margin-left: 10px;
+    font-size: 40px;
+    color: #D6EFD8;
+}
+
+.agregar i:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.tareas h2{
+    margin-bottom: 20px;
+}
+
+.tareas li{
+    background-color: #80AF81;
+    border-radius: 15px;
+    padding: 10px;
+    color:#365E32;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tareas{
+    font-size: 25px;
+}
+
+.tareas p{
+    font-weight: bold;
+}
+
+.tareas i:hover{
+    color: #E7F0DC;
+    cursor: pointer;
+}
+
+.tachado{
+    text-decoration: line-through;
+    color: #365E32;
+}
+
+
+
