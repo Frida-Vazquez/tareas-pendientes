@@ -13,4 +13,4 @@ En mi proyecto en TecnolochicasPRO, creé un administrador de tareas utilizando 
 * Eliminar tareas
 
 ## Captura del Proyecto
-![Captura del proyecto](/Imagenes/captura-proyecto.png)
+![Captura del proyecto](/assets/captura-proyecto.png)
