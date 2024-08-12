@@ -12,5 +12,7 @@ En mi proyecto en TecnolochicasPRO, creé un administrador de tareas utilizando 
 * Marcar tareas como completadas
 * Eliminar tareas
 
+Podrás encontrarlo aquí [Administrador de tareas](https://frida-vazquez.github.io/tareas-pendientes/).
+
 ## Captura del Proyecto
 ![Captura del proyecto](/assets/captura-proyecto.png)
